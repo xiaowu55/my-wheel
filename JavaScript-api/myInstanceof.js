@@ -6,3 +6,8 @@ function myInstanceof(left,right){
         proto = Object.getPrototypeOf(proto)
     }
 }
+
+/* 
+instanceof的原理是
+1.原型链向上查找
+*/
