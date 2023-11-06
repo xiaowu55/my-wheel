@@ -1,3 +1,10 @@
+/*
+要点在于
+理解传入的元素参数
+
+*/
+
+
 Array.prototype.myForEach = function (callback){
     for(let i=0;i<this.length;i++){
         callback(this[i],i,this)
@@ -12,6 +19,6 @@ const players = [
     { name: '杜兰特', num: 35 }
 ]
 
-players.myForEach((item,index,arr)=>{
-    console.log(item,index,arr);
-})
+// players.myForEach((item,index,arr)=>{
+//     console.log(item,index,arr);
+// })
